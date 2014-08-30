@@ -1,0 +1,9 @@
+[package]
+name = "uuid"
+version = "0.1.0"
+author = "Erwan Ameil"
+description = "Wrapper for the UUID library"
+license = "MIT"
+
+[deps]
+requires = "nimrod >= 0.9.3"
