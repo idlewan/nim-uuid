@@ -40,7 +40,7 @@ type Ttimeval {.importc: "struct timeval", header: "<sys/select.h>",
                 final, pure.} = object
 
 {.deadCodeElim: on.}
-const libuuid = "libuuid.so"
+const libuuid = "libuuid.so.(1|)"
 
 type 
   Tuuid* = array[0..16 - 1, cuchar]
